@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.guide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4rem;
+}
+
+.guide img {
+    width: 10rem;
+}
+
+.card {
+    background: rgb(49, 48, 48);
+    width: 100%;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 2px rgb(71, 71, 71) solid;
+    margin-bottom: 2rem;
+}
+
+.card h2 {
+    background: black;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.card div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    background: rgb(22, 121, 250);
+    color: white;
+    text-decoration: inherit;
+    font-weight: bold;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+@media (max-width: 870px) {
+    .card div {
+        flex-direction: column;
+    }
+
+    .guide {
+        padding: 0 3rem;
+    }
+
+    .card {
+        padding: 2rem;
+    }
+}
